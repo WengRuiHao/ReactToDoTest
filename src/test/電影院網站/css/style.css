@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.Layout {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.film-content {
+    height: 200px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.film-list {
+    display: flex;
+    flex-direction: column;
+}
